@@ -1,0 +1,22 @@
+/Christopher Salaton ;
+//surface area of a cylinder ;
+
+#include <stdio.h> 
+
+
+int main()
+{
+int sal, t;
+float bon, am;
+printf("Enter salary =") ;
+scanf("%d", sal) ;
+printf("Enter the time =") ;
+scanf("%f", & t) ;
+printf("Enter the bonus =") ;
+scanf("%f" , & bon) ;
+am=sal*bon *t;
+printf(" amount=%f",am);
+return 0;
+}
+
+    
