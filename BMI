@@ -1,0 +1,18 @@
+/Christopher Salaton ;
+//BMI ;
+
+#include <stdio.h> 
+
+
+int main()
+{
+int wg, h;
+float bmi;
+printf("Enter weight (kg) =") ;
+scanf("%d", wg) ;
+printf("Enter the height(m) =") ;
+scanf("%f", & h) ;
+bmi=wg/h*h ;
+printf("BMI=%f",bmi);
+return 0;
+}
