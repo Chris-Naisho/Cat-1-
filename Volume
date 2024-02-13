@@ -1,0 +1,21 @@
+/Christopher Salaton ;
+//volume of a cylinder ;
+
+#include <stdio.h> 
+
+
+int main()
+{
+float pi,r, h, vol;
+printf("Enter pi =") ;
+scanf("%f", pi) ;
+printf("Enter the radius =") ;
+scanf("%f", & r) ;
+printf("Enter the height =") ;
+scanf("%f" , & h) ;
+vol=pi *r*r*h;
+printf("volume=%f",vol);
+return 0;
+}
+
+    
